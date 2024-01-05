@@ -1,0 +1,20 @@
+<?php
+include('connection.php');
+$query="select nsi_number,product_name,stocks_quantity from product where nsi_number='".$_REQUEST['productnsi']."'";
+$products=mysqli_query($conn,$query);
+$numrows=mysqli_num_rows($products);
+if ($numrows>0)
+{
+	$productdetails=array();
+	while ($row=mysqli_fetch_array($products,MYSQLI_ASSOC))
+	{
+		$productdetails[]=$row;
+	}
+	echo json_encode($productdetails);
+}
+else
+{
+	$productdetails[0]["error"]="nosuccess";
+	echo json_encode($productdetails);
+}	
+?>

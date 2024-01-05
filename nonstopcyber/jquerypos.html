@@ -1,0 +1,15 @@
+<html>
+<body>
+
+<input type="text" class='barcodeclass' value="">  
+</body>
+<script>
+$(function()
+{
+	$(document).pos();
+	$(document).on('scan.pos.barcode','.barcodeclass', function(event){
+		alert(event.code):
+	});
+});
+</script>
+</html>

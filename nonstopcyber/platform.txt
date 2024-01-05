@@ -1,0 +1,44 @@
+Insert into platform (code, platformname, platformsub) values('fzco - Noon', 'Noon','Middle East FZCO');
+Insert into platform (code, platformname, platformsub) values('ctn - Noon', 'Noon','Cyber trends');
+Insert into platform (code, platformname, platformsub) values('cans - Careerfour', 'Careerfour','Non Stop');
+Insert into platform (code, platformname, platformsub) values('caau - Careerfour', 'Careerfour','Aswani Uniforms');
+Insert into platform (code, platformname, platformsub) values('sharafdg - Sharaf DG', 'Sharaf DG','Sharaf DG');
+Insert into platform (code, platformname, platformsub) values('cartlow - Cartlow', 'Cartlow','Cartlow');
+Insert into platform (code, platformname, platformsub) values('2071mall - 2071 mall', '2071 mall','2071 mall');
+
+										            <optgroup label="2071 mall">
+                                                        <option value="2071mall - 2071 mall">2071 mall</option>
+                                                    </optgroup>
+													<optgroup label="Dubaistore">
+                                                        <option value="Dubaistore - Dubai Store">Dubai Store</option>
+                                                    </optgroup>
+													<optgroup label="Ourshopee">
+                                                        <option value="Ourshopee - Ourshopee">Ourshopee</option>
+                                                    </optgroup>
+													<optgroup label="Talabat">
+                                                        <option value="Talabat - Talabat">Talabat</option>
+                                                    </optgroup>
+													<optgroup label="Measouq">
+                                                        <option value="Measouq - Measouq">Measouq</option>
+                                                    </optgroup>
+													<optgroup label="Non Stop Cyber">
+                                                        <option value="Nonstopcyber - Non Stop Cyber">Non Stop Cyber</option>
+                                                    </optgroup>
+													<optgroup label="Big Saver Hub">
+                                                        <option value="Bigsaverhub - Big Saver Hub">Big Saver Hub</option>
+                                                    </optgroup>
+													<optgroup label="Elabelz">
+                                                        <option value="Elabelz - Elabelz">Elabelz</option>
+                                                    </optgroup>
+													<optgroup label="tradeling">
+                                                        <option value="tradeling - tradeling">tradeling</option>
+                                                    </optgroup>
+													<optgroup label="Meezzaa">
+                                                        <option value="Meezzaa - Meezzaa">Meezzaa</option>
+                                                    </optgroup>
+													<optgroup label="Squareup">
+                                                        <option value="Squareup - Squareup">Squareup</option>
+                                                    </optgroup>
+														<optgroup label="Cash Customer">
+                                                        <option value="Cashcustomer - Cash Customer">Cash Customer</option>
+                                                    </optgroup>

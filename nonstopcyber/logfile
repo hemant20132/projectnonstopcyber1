@@ -1,0 +1,138 @@
+Log for nonstopcyber:
+====================
+24th July 2021 2:49 pm
+=======================
+Data import for nonstopcyber 
+got error
+ALTER TABLE `brand`
+  ADD UNIQUE KEY `code` (`code`),
+  ADD UNIQUE KEY `brand` (`brand`) USING HASH
+Specified key was too long; max key length is 3072 bytes
+
+this problem solved by reducing length of code field and brand field to 255 characters.
+
+brand and category code + brand code + item number starting from 10001
+nsi number for the first imnage
+nsi number (1) for the second
+
+[{"s_no":"79","category":"Baby & Toddler","sub_category":"Baby Toys & Activity Equipment",
+"brand":"ALLERGAN","nsi_number":"0","barcode":"789654123",
+"product_name":"salman","purchase_date":"2021-05-14",
+"purchase_qty":"56","purchase_price":"10","shelf_number":"0"}]
+
+the functionality will code for mobile in javascript
+
+
+This template the code for ajax and jquery putting values is not working
+normally it works 
+------------------
+
+what you want to say ? typer here
+
+ it is written that it does not contain jquery files
+ that is ok
+ i am copying from external jquery site
+ 
+ this i will attend at last
+ product price needs tobe in column 
+ for calculations 
+ but facing trouble while fetching bar code 
+ so for testing purpose i am using manual values]
+ sure
+ 
+return amaged/not damaged/notif damaged --> separate page damaged products
+separate drop down for damanged/not damaged  items
+and separate item list needs to be done.
+sales list commission should be updated after words--- edit option to be provided 
+
+product page
+amazon asin, noon_sku
+short description---
+serach box in sales list order number should be searchable
+
+also filters for platform from todadate requried for list in sales list and return list
+//26-7-2021;
+three types of users
+camera scan required for bar code 
+multiple product upload should work fine.
+multiple image in product upload to be numbered and option for multiple images provided.
+
+1. User, only can use sales and return and edit their own data
+	edit and delete for all lists required user roles should be assigned for edit delete view and add options.
+	-----edit and delete return, sale, product, user is working now---
+	
+	superadmin should only be permitted to do all operations and add users.
+	------------super admin only allowed to do all operations and add users.------					
+	admin role should be able to do all operations but not add users.
+	-----this is locked for add user when role=admin---
+	user profile should be added view menu in users list
+	-- user entry is done need to check user role and do edit delete in lists---
+	User should be able to only change his entries and not--others. 
+	--this is done ----
+	--Role admin and superusers and users are coded now.-- 
+	
+2. Admin, 2 people will use, boss and accountant, they can see and edit everything but cannot add users
+	----users screen created and now data can be added using it can be viewed in users.php-----
+	---this is done---
+
+3. category list and nsi code generation in product with description and short description required in product add.
+	----this attended-- 27.7.2021 12:40 pm
+	
+4. list of new platform is required to be imported in the database table for brand;
+	-----this is attended --26.7.2021 07:00 pm.
+
+5. require php code to import for csv of amazon, noon sku to be imported to product list.
+
+6. stock update on three things sales and purchase.
+	proudct is pruchased then it should be added to quantity 
+	product sold the stock quantity should be deducted.
+	returned product if not damaged it should be added to stock quantity.
+	
+8. reading barcode, purchase date, qty, price
+
+9. product list tobe shown with barcode, purchase date, qty, price changes.
+   like first in first out principles based on purchase date 
+   a product can have more than one barcode.so there should be a array for that array 
+   like (lastest first barcode, latest second barcode, lastest thirdbarcode);
+
+10. export list of excel pdf csv required  as per export format to be given by them.
+   ------------this is working on users.php,stocks.php,returns.php,sales.php -------------------
+   
+11. filters to be coded for working for sales, returns and product pages. 
+	product list filter- 3 parametres-> category, subcategory,brand
+	----------filter working for returns,sales  -------------
+
+12. new produts to be imported into database products - quanity not to be imported.
+
+13. forms should reset its values after submitting the values;
+
+14. user profile password change to be done also dsr report also to be prepared 
+dashboard changes to be done
+
+15 menu to remain open left side
+
+16.notifications required on top 
+-- notifications are now comming--
+
+17. dashboard should have recent sale orders to be displayed.
+---- this is done ---
+
+
+	
+   
+   
+   
+ 
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
